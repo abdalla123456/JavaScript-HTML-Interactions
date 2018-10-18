@@ -22,7 +22,7 @@
     <aside><p></p></aside>
     <section>
       <h3>Assignment: [Landscape or Portrait]</h3>
-      <p><a href="" target="_blank">Click Here for the Origonal Assignment</a></p>
+      <p><a href="" target="_blank">Click Here for the Original Assignment</a></p>
 
       <!-- Below is the full HTML FORM Template for all Assignments-->
 
@@ -31,11 +31,12 @@
 
       <p>&nbsp;</p>
       <p>
-        <label for="textfield">Number 1:</label>
+        <label for="textfield">Width</label>
         <input name="textfield1" type="text" id="textfield1">
+        <p>id="validityTest1"</p> <!-- Ensures this FORM  doesn't work with PHP or ther server side scripting languages -->
       </p>
       <p>
-        <label for="textfield2">Number 2:</label>
+        <label for="textfield2">Height</label>
         <input name="textfield2" type="text" id="textfield2">
       </p>
       <p>&nbsp;</p>
@@ -69,7 +70,7 @@
 
         <p>&nbsp;</p>
         <!-- Submit Button-->
-        <input type="submit" id="subBtn" value="Submit information" />
+        <button type="button" onclick='main()'>Submit<button/>
         <br>
         <p id="large"></p>
 
